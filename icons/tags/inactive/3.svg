@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="3.svg"
+   inkscape:export-filename="3.png"
+   inkscape:export-xdpi="768"
+   inkscape:export-ydpi="768"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#525252"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="2.3146699"
+     inkscape:cx="73.876626"
+     inkscape:cy="37.586353"
+     inkscape:window-width="1839"
+     inkscape:window-height="1051"
+     inkscape:window-x="50"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0003px;font-family:'Monofur Nerd Font';-inkscape-font-specification:'Monofur Nerd Font';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:none;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00003;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="7.9692936"
+       y="11.500225"
+       id="text1"
+       transform="scale(1.0000219,0.99997812)"
+       inkscape:label="text"><tspan
+         sodipodi:role="line"
+         x="0"
+         y="0"
+         id="tspan4"
+         style="stroke-width:1.00003">3</tspan></text>
+    <path
+       d="m 11.102686,3.4267406 q 0,0.2333377 -0.226671,0.4400083 L 7.9959608,6.5067983 q 1.2800239,0.080001 2.1600402,1.0200191 0.886683,0.9466844 0.886683,2.2267083 0,1.3466923 -0.960018,2.2933763 -0.9600175,0.953351 -2.2933758,0.953351 -0.8533493,0 -1.6266971,-0.440008 -0.8066817,-0.446675 -1.1933557,-1.180022 -0.073335,-0.14667 -0.073335,-0.260005 0,-0.200004 0.160003,-0.346673 0.1666698,-0.153336 0.3666736,-0.153336 0.2266709,0 0.413341,0.253338 0.8466825,1.126687 1.9533699,1.126687 0.926684,0 1.5933632,-0.660012 0.6600129,-0.653345 0.6600129,-1.5866963 0,-0.926684 -0.6666797,-1.5866964 -0.6600124,-0.6666791 -1.5866964,-0.6666791 -0.6333452,0 -1.2533568,0.4133411 -0.6200116,0.4066743 -0.7133466,0.4066743 -0.2000038,0 -0.35334,-0.1466695 -0.1466694,-0.1466694 -0.1466694,-0.3533399 0,-0.2200041 0.1866702,-0.3933407 l 3.74007,-3.4267308 H 5.3959121 q -0.5000094,0 -0.5000094,-0.5000094 0,-0.5000093 0.5000094,-0.5000093 h 5.1467629 q 0.560011,0 0.560011,0.4266746 z"
+       id="text2"
+       style="font-size:16.0003px;font-family:'Monofur Nerd Font';-inkscape-font-specification:'Monofur Nerd Font';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:0.6;stroke-width:1.00003;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       inkscape:label="path"
+       transform="scale(1.0000219,0.99997812)"
+       aria-label="3" />
+  </g>
+</svg>

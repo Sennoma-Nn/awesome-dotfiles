@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="7.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#525252"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.1573349"
+     inkscape:cx="128.74406"
+     inkscape:cy="-45.794867"
+     inkscape:window-width="1839"
+     inkscape:window-height="1051"
+     inkscape:window-x="50"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0006px;font-family:'Monofur Nerd Font';-inkscape-font-specification:'Monofur Nerd Font';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:none;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00004;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="7.9866171"
+       y="11.497319"
+       id="text1"
+       inkscape:label="text"><tspan
+         sodipodi:role="line"
+         x="0"
+         y="0"
+         id="tspan4"
+         style="stroke-width:1.00004">7</tspan></text>
+    <path
+       d="m 11.513416,3.4236827 q 0,0.1466722 -0.08667,0.3066782 L 6.5932314,12.730699 q -0.1466721,0.273343 -0.4266827,0.273343 -0.2000075,0 -0.3666804,-0.146672 -0.160006,-0.146672 -0.160006,-0.346679 0,-0.126672 0.073336,-0.246676 L 10.153365,3.9970376 H 4.9865044 q -0.5000187,0 -0.5000187,-0.5000188 Q 4.4864857,2.997 4.9865044,2.997 H 10.98673 q 0.526686,0 0.526686,0.4266827 z"
+       id="text2"
+       style="font-size:16.0006px;font-family:'Monofur Nerd Font';-inkscape-font-specification:'Monofur Nerd Font';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:0.6;stroke-width:1.00004;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       inkscape:label="path"
+       aria-label="7" />
+  </g>
+</svg>
