@@ -26,7 +26,7 @@ apps = {
    terminal = "kitty",
    launcher = "rofi -normal-window -modi drun -show drun -theme " .. theme_config_dir .. "rofi.rasi",
    window = "rofi -normal-window -modi window -show window -theme " .. theme_config_dir .. "rofi.rasi",
-   lock = "i3lock",
+   lock = "i3lock --color '#000000'",
    -- screenshot = "scrot -e 'mv $f ~/Pictures/'",
    screenshot = "flameshot gui",
    filebrowser = "nemo"
@@ -44,8 +44,7 @@ local run_on_start_up = {
    "redshift",
    "unclutter",
    "fcitx5",
-   "flameshot",
-   "xrandr --output HDMI-0 --mode 1920x1080 --rate 74.97"
+   "flameshot"
 }
 
 
