@@ -50,6 +50,7 @@ top_panel.create = function(s)
    right_container:add(require("widgets.notifications-toggle"))
    right_container:add(require("widgets.volume"))
    right_container:add(require("widgets.network4re0")())
+   right_container:add(wibox.container.margin(nil, dpi(8), 0, 0, 0))
    right_container:add(require("widgets.calendar").create(s))
    right_container:add(wibox.container.margin(nil, dpi(12), 0, 0, 0))
    
@@ -62,7 +63,7 @@ top_panel.create = function(s)
    
    local right_bg = wibox.container.background()
    right_bg:set_widget(right_bg_clickable)
-   right_bg:set_bg(beautiful.bg_dark)  -- Set to theme.bg_dark
+   right_bg:set_bg(beautiful.bg_dark)
    right_bg.shape = function(cr, width, height)
       gears.shape.partially_rounded_rect(cr, width, height, false, false, true, true, corner_radius_clickable)
    end
@@ -76,7 +77,7 @@ top_panel.create = function(s)
          require("widgets.task-list").create(s),
       },
       nil,
-      wibox.container.margin(right_bg, 0, dpi(14), 0, 0)  -- Add dpi(14) margin on the right side of the pill
+      wibox.container.margin(right_bg, 0, dpi(14), 0, 0)
    }
 
    local panel_bg = wibox({
