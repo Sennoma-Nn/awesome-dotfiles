@@ -41,8 +41,6 @@ network_interfaces = {
 -- List of apps to run on start-up
 local run_on_start_up = {
    "picom --config " .. theme_config_dir .. "picom.conf",
-   "redshift",
-   "unclutter",
    "fcitx5",
    "flameshot"
 }
