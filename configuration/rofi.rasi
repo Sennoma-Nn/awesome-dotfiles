@@ -35,7 +35,7 @@ prompt {
 }
 
 entry {
-    font: "SF Pro Display 12";
+    font: "Huiwen-HKHei 12";
     placeholder-color: #999999;
     placeholder: "Search Applications";
     blink: true;
@@ -86,7 +86,7 @@ element-icon {
 }
 
 element-text {
-    font: "SF Pro Display 10";
+    font: "Huiwen-HKHei 10";
     color: inherit;
     horizontal-align: 0.5;
 }

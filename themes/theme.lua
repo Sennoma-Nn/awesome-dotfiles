@@ -24,14 +24,14 @@ local theme = {}
 
 
 -- Font
-theme.font = "SF Pro Text 9"
-theme.title_font = "SF Pro Display Medium 10"
+theme.font = "Huiwen-HKHei 9"
+theme.title_font = "Huiwen-HKHei 10"
 
 -- Background
-theme.bg_normal = "#121212"
-theme.bg_dark = "#121212"
+theme.bg_normal = "#272727"
+theme.bg_dark = "#1c1c1c"
 theme.bg_focus = "#151821"
-theme.bg_urgent = "#a28ad8ff"
+theme.bg_urgent = "#a28ad8"
 theme.bg_minimize = "#444444"
 
 -- Foreground
@@ -106,7 +106,7 @@ theme.titlebars_enabled = true
 local icon_dir = gears.filesystem.get_configuration_dir() .. "/icons/titlebar/"
 
 theme.titlebar_bg_focus = theme.bg_normal
-theme.titlebar_bg_normal = "#0f0f0fff"
+theme.titlebar_bg_normal = "#1e1e1e"
 theme.titlebar_fg_focus = theme.fg_normal
 theme.titlebar_fg_normal = theme.fg_focus
 
