@@ -36,6 +36,57 @@ function rules.create(clientkeys, clientbuttons)
       end
    }
 
+   local borderless_apps = {
+      {
+         class = {"code - oss", "Code - OSS"},
+         border_width = 2,
+         border_color = beautiful.border_normal,
+         titlebars_enabled = false
+      },
+      {
+         class = {"org.gnome.Nautilus", "org.gnome.Nautilus"},
+         border_width = 0,
+         border_color = beautiful.border_normal,
+         titlebars_enabled = false
+      },
+      {
+         class = {"qq", "QQ"},
+         border_width = 1,
+         border_color = "#333333",
+         titlebars_enabled = false
+      },
+      {
+         class = {"rofi", "Rofi"},
+         border_width = 0,
+         border_color = beautiful.border_normal,
+         titlebars_enabled = false
+      },
+      {
+         class = {"org.jackhuang.hmcl.Launcher", "org.jackhuang.hmcl.Launcher"},
+         border_width = 0,
+         border_color = beautiful.border_normal,
+         titlebars_enabled = false
+      },
+      {
+         class = {"Eterm 0.9.6", "Eterm"},
+         border_width = 0,
+         border_color = beautiful.border_normal,
+         titlebars_enabled = false
+      },
+   }
+
+   local borderless_rules = {}
+   for _, app in ipairs(borderless_apps) do
+      table.insert(borderless_rules, {
+         rule_any = {class = app.class},
+         properties = {
+            border_width = app.border_width,
+            border_color = app.border_color,
+            titlebars_enabled = app.titlebars_enabled
+         }
+      })
+   end
+
    return {
       -- All clients will match this rule.
       {
@@ -129,6 +180,8 @@ function rules.create(clientkeys, clientbuttons)
          rule_any = {class = {"Pavucontrol"}, name = {"Bluetooth Devices"}},
          properties = {floating = true, width = screen_width * 0.55, height = screen_height * 0.45}
       },
+
+      table.unpack(borderless_rules),
    }
 end
 
