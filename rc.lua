@@ -26,8 +26,8 @@ apps = {
    terminal = "kitty",
    launcher = "rofi -normal-window -modi drun -show drun -theme " .. theme_config_dir .. "rofi.rasi",
    window = "rofi -normal-window -modi window -show window -theme " .. theme_config_dir .. "rofi.rasi",
+   run = "rofi -normal-window -modi run -show run -theme " .. theme_config_dir .. "rofi.rasi",
    lock = "i3lock --color '#000000'",
-   -- screenshot = "scrot -e 'mv $f ~/Pictures/'",
    screenshot = "flameshot gui",
    filebrowser = "nemo"
 }
@@ -120,6 +120,31 @@ end)
 
 -- Autofocus a new client when previously focused one is closed
 require("awful.autofocus")
+
+-- Set border colors
+local function update_border_color()
+   for _, c in ipairs(client.get()) do
+      if c == client.focus then
+         c.border_color = beautiful.border_focus
+      elseif c.marked then
+         c.border_color = beautiful.border_marked
+      else
+         c.border_color = beautiful.border_normal
+      end
+   end
+end
+
+client.connect_signal("focus", function(c)
+   update_border_color()
+end)
+
+client.connect_signal("property::marked", function(c)
+   update_border_color()
+end)
+
+client.connect_signal("manage", function(c)
+   update_border_color()
+end)
 
 -- Focus clients under mouse
 client.connect_signal("mouse::enter", function(c)

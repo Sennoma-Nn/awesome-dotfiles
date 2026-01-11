@@ -50,8 +50,8 @@ theme.corner_radius = dpi(20)
 -- Window Borders
 theme.border_width = dpi(2)
 theme.border_normal = theme.bg_normal
-theme.border_focus = "#8fbcdaff"
-theme.border_marked = theme.fg_urgent
+theme.border_focus = "#2e877e"
+theme.border_marked = "#a28ad8"
 
 -- Taglist
 theme.taglist_bg_empty = theme.bg_dark

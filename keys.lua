@@ -156,6 +156,13 @@ keys.globalkeys = gears.table.join(
       end,
       {description = "window", group = "launcher"}
    ),
+   -- run command
+   awful.key({modkey}, "r",
+      function()
+         awful.spawn(apps.run)
+      end,
+      {description = "run command", group = "launcher"}
+   ),
 
    -- =========================================
    -- FUNCTION KEYS
@@ -599,6 +606,14 @@ keys.clientkeys = gears.table.join(
          c:raise()
       end,
       {description = "(un)maximize", group = "client"}
+   ),
+   
+   -- Toggle mark
+   awful.key({modkey, "Control"}, "m",
+      function(c)
+         c.marked = not c.marked
+      end,
+      {description = "mark/unmark window", group = "client"}
    )
 )
 
