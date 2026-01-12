@@ -63,7 +63,12 @@ function rules.create(clientkeys, clientbuttons)
          titlebars_enabled = false
       },
       {
-         class = {"Eterm 0.9.6", "Eterm"},
+         class = {"Eterm"},
+         border_width = 2,
+         titlebars_enabled = false
+      },
+      {
+         class = {"zen"},
          border_width = 2,
          titlebars_enabled = false
       },
